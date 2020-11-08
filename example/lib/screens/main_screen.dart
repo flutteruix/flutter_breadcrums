@@ -3,16 +3,7 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 
 import 'color_picker.dart';
 
-// this.title = "Title",
-// this.onPressed,
-// this.padding = const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3),
-// this.margin = const EdgeInsets.symmetric(horizontal: 5),
-// this.radius = 20,
-// this.width = 80,
-// this.child,
-// this.colors = const [Colors.orangeAccent, Colors.yellow],
-// this.widthFactor = 0.8,
-// this.style = Style.Angled,
+
 class MainScreen extends StatefulWidget {
   @override
   _MainScreenState createState() => _MainScreenState();
@@ -39,7 +30,6 @@ class _MainScreenState extends State<MainScreen> {
   @override
   void initState() {
     list.addAll(["Item 1", "Item 2"]);
-
     super.initState();
   }
 

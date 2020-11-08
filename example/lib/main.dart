@@ -73,8 +73,7 @@ class _MainScreenState extends State<MainScreen> {
                     colors:  [${color1.toString()}, ${color2.toString()}],
                     widthFactor: $withFactor,
                     style: $style,
-                  );
-                
+                  );                
            ''',
           maxLines: null,
         ),

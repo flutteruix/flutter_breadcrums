@@ -1,4 +1,4 @@
-# flutter_breadcrums
+# Flutter Breadcrums 
 
 This package helps in creation of Flutter Breadcrum similar to the html/css Breadcrum.
 
@@ -28,9 +28,15 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
         )
 ```
 
+## Code Generator (Example App)
+
+To try demo or genrate code build apk of example app
+
+| Design View | Code View |
+|-|-|
+| ![Design](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/design.png)| ![Code](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/code.png)
+
 ## Attributes 
-
-
 
 | Attribute | Type   | Default  | Description  |
 |-----------|--------|----------|--------------|
@@ -45,13 +51,14 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 |`widthFactor`       |`double`                    | `0.8`                                        | Widthfactor (Overlapping factor) is defined how much part should overlap on previous child 
 |`style`             |`Style`                     |`Style.Angled`                                  | this defines the shape of breadcrum
 
-Available Styles are : 
-``` 
-  Style.Angled
-  Style.Capsule
-  Style.CapsuleCurve
-  Style.Rect
-  Style.Arrow
-  Style.Oval
-  Style.Rocket
-```
+# Available Styles are : 
+
+| Style Type | Image |
+|----|----|
+| `Style.Angled` | ![Angled](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/angled.png) |
+| `Style.Capsule` | ![Capsule](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/capsule.png) |
+| `Style.CapsuleCurve` | ![Capsule Curved](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/capsule_curved.png) |
+| `Style.Rect` | ![rect](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/rect.png) |
+| `Style.Arrow` | ![arrow](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/arrow.png) |
+| `Style.Oval` | ![oval](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/oval.png) |
+| `Style.Rocket` | ![Rocket](https://raw.githubusercontent.com/flutteruix/flutter_breadcrums/master/images/rocket.png) |

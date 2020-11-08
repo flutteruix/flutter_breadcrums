@@ -30,8 +30,10 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 
 ## Attributes 
 
-| Attribute          | Type                       | Default                                      | Description   
-|--------------------|----------------------------|----------------------------------------------|
+
+
+| Attribute | Type   | Default  | Description  |
+|-----------|--------|----------|--------------|
 | `title`            | `String`                   | `Title`                                      | null child will overwrite by title
 | `onPressed`        | `()`                       | `null`                                       | This will trigger when breadcrum is pressed  
 | `padding`          | `EdgeInsetsGeometry`       | `const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3)`| Padding between child and breadcrum edge
@@ -41,11 +43,15 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 |`child`             |`Widget`                    | `null`                                       | By default it is false, if provided it will overwrite title
 |`colors`            |`List<Color>`               | `const [Colors.orangeAccent, Colors.yellow]` | gradient colors 
 |`widthFactor`       |`double`                    | `0.8`                                        | Widthfactor (Overlapping factor) is defined how much part should overlap on previous child 
-|`style`             |`Style`                     |Style.Angled                                  | this defines the shape of breadcrum
+|`style`             |`Style`                     |`Style.Angled`                                  | this defines the shape of breadcrum
 
-
-| Attribute | Type | Default | Description                |   |
-|-----------|------|---------|----------------------------|---|
-| title     | ``   | `Title` | dfgh gfgfgf   gfbg g   ffd |   |
-|           |      |         |                            |   |
-|           |      |         |                            |   |
+Available Styles are : 
+``` 
+  Style.Angled
+  Style.Capsule
+  Style.CapsuleCurve
+  Style.Rect
+  Style.Arrow
+  Style.Oval
+  Style.Rocket
+```

@@ -32,10 +32,10 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 
 | Attribute          | Type                       | Default                                      | Description   
 |--------------------|----------------------------|----------------------------------------------|
-|`title`             |`String`                    | `Title`                                      | null child will overwrite by title
-|`onPressed`         |`()`                        | `null`                                       | This will trigger when breadcrum is pressed  
-|`padding`           |`EdgeInsetsGeometry`        | `const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3)`| Padding between child and breadcrum edge
-|`margin`            |`EdgeInsetsGeometry`        | `const EdgeInsets.symmetric(horizontal: 5)`  | Margin ardound breadcrum
+| `title`            | `String`                   | `Title`                                      | null child will overwrite by title
+| `onPressed`        | `()`                       | `null`                                       | This will trigger when breadcrum is pressed  
+| `padding`          | `EdgeInsetsGeometry`       | `const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3)`| Padding between child and breadcrum edge
+| `margin`           | `EdgeInsetsGeometry`       | `const EdgeInsets.symmetric(horizontal: 5)`  | Margin ardound breadcrum
 |`radius`            |`double`                    | `20`                                         | Tapering width of angled,circle,etc bareadcrum style 
 |`width`             |`double`                    | `80`                                         | Width of the breadcrum
 |`child`             |`Widget`                    | `null`                                       | By default it is false, if provided it will overwrite title
@@ -44,7 +44,7 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 |`style`             |`Style`                     |Style.Angled                                  | this defines the shape of breadcrum
 
 
-| attribute | type | default | description                |   |
+| Attribute | Type | Default | Description                |   |
 |-----------|------|---------|----------------------------|---|
 | title     | ``   | `Title` | dfgh gfgfgf   gfbg g   ffd |   |
 |           |      |         |                            |   |

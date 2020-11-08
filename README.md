@@ -29,7 +29,6 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 ```
 | Attribute          | Type                       | Default                                      | Description   
 |--------------------|----------------------------|----------------------------------------------|
-
 |`title`             |`String`                    | `Title`                                      | null child will overwrite by title
 |`onPressed`         |`()`                        | `null`                                       | This will trigger when breadcrum is pressed  
 |`padding`           |`EdgeInsetsGeometry`        | `const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3)`| Padding between child and breadcrum edge

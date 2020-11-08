@@ -27,17 +27,16 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
             }).toList(),
         )
 ```
-| Attribute          | Type                       | Default              | Description   
+| Attribute          | Type                       | Default                                      | Description   
+|--------------------|----------------------------|----------------------------------------------|
 
-
-|`title`             |`String`                   | `Title` | null child will overweite by title
-|`onPressed`         |                           | `null`  | This will trigger when breadcrum is pressed  
-|`padding`           |`EdgeInsetsGeometry`       | `const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3)`| Padding between child and breadcrum edge
-|`margin`            |`EdgeInsetsGeometry`       | `const EdgeInsets.symmetric(horizontal: 5)`| Margin ardound breadcrum
-|`radius`            |`double`                   | `20` | Tapering width of angled,circle,etc bareadcrum style 
-|`width`             |`double`                   | `80` | Width of the breadcrum
-|`child`             |`Widget`                   | `null` | By default it is false, if provided it will overwrite title
-|`colors`            |`List<Color>`              | `const [Colors.orangeAccent, Colors.yellow]` | gradient colors 
-|`widthFactor`       |`double`                   | `0.8` | Widthfactor (Overlapping factor) is defined how much part should overlap on previous child 
-|`style`             |`Style`                    |Style.Angled | this defines the shape of breadcrum
-
+|`title`             |`String`                    | `Title`                                      | null child will overwrite by title
+|`onPressed`         |`()`                        | `null`                                       | This will trigger when breadcrum is pressed  
+|`padding`           |`EdgeInsetsGeometry`        | `const EdgeInsets.fromLTRB(20.0, 3, 20.0, 3)`| Padding between child and breadcrum edge
+|`margin`            |`EdgeInsetsGeometry`        | `const EdgeInsets.symmetric(horizontal: 5)`  | Margin ardound breadcrum
+|`radius`            |`double`                    | `20`                                         | Tapering width of angled,circle,etc bareadcrum style 
+|`width`             |`double`                    | `80`                                         | Width of the breadcrum
+|`child`             |`Widget`                    | `null`                                       | By default it is false, if provided it will overwrite title
+|`colors`            |`List<Color>`               | `const [Colors.orangeAccent, Colors.yellow]` | gradient colors 
+|`widthFactor`       |`double`                    | `0.8`                                        | Widthfactor (Overlapping factor) is defined how much part should overlap on previous child 
+|`style`             |`Style`                     |Style.Angled                                  | this defines the shape of breadcrum

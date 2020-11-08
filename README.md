@@ -27,6 +27,9 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
             }).toList(),
         )
 ```
+
+## Attributes 
+
 | Attribute          | Type                       | Default                                      | Description   
 |--------------------|----------------------------|----------------------------------------------|
 |`title`             |`String`                    | `Title`                                      | null child will overwrite by title
@@ -39,3 +42,10 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 |`colors`            |`List<Color>`               | `const [Colors.orangeAccent, Colors.yellow]` | gradient colors 
 |`widthFactor`       |`double`                    | `0.8`                                        | Widthfactor (Overlapping factor) is defined how much part should overlap on previous child 
 |`style`             |`Style`                     |Style.Angled                                  | this defines the shape of breadcrum
+
+
+| attribute | type | default | description                |   |
+|-----------|------|---------|----------------------------|---|
+| title     | ``   | `Title` | dfgh gfgfgf   gfbg g   ffd |   |
+|           |      |         |                            |   |
+|           |      |         |                            |   |

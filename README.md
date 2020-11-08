@@ -28,9 +28,7 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
         )
 ```
 | Attribute          | Type                       | Default              | Description   
-|
 
-| ------------------ | -------------------------- | -------------------  | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 |`title`             |`String`                   | `Title` | null child will overweite by title
 |`onPressed`         |                           | `null`  | This will trigger when breadcrum is pressed  
@@ -42,5 +40,4 @@ import 'package:flutter_breadcrums/flutter_breadcrums.dart';
 |`colors`            |`List<Color>`              | `const [Colors.orangeAccent, Colors.yellow]` | gradient colors 
 |`widthFactor`       |`double`                   | `0.8` | Widthfactor (Overlapping factor) is defined how much part should overlap on previous child 
 |`style`             |`Style`                    |Style.Angled | this defines the shape of breadcrum
-|
 
